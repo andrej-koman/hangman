@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+    background-color: #807470;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#canvas {
+    width: 700px;
+    height: 450px;
+    position: fixed;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#wordOutputWrapper {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+#lettersDiv {
+    margin-top: 450px;
+}
+
+#guessesLeft {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+#slo,
+#eng {
+    float: right;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -50px;
+    background-color: #4C4542;
+    padding-bottom: 10px;
+}
